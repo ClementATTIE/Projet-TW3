@@ -1,3 +1,7 @@
+CREATE TABLE personne ( nomUtilisateur VARCHAR(100), nom VARCHAR(100), prenom VARCHAR(100), dtN date, mail VARCHAR(100), mdp VARCHAR(100) )
+
+
+
 INSERT INTO personne (nomUtilisateur, nom, prenom, dtN, mail, mdp) VALUES
 ('Coby', 'Coby', 'Bernard', '1968-08-10', 'sollicitudin@MaurismagnaDuis.com', 'Coby'),
 ('Fulton', 'Fulton', 'Zachery', '2002-12-30', 'in@rutrum.com', 'Fulton'),
